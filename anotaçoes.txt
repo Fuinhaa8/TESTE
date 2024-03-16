@@ -1,0 +1,28 @@
+Transformar os textos:
+
+Negrito --> <strong> </strong>
+Itálico --> <em> </em>
+Sublinhado --> <ins> </ins>
+Tachado --> <del> </del>
+Marcado --> <mark> </mark>
+
+Exemplo: <h1><mark> texto </mark></h1>
+
+CSS:
+
+ text-align: center;  --> centraliza o texto
+ text-align: justify; --> imagine um quadrado, o justify vai deixar o texto preenchida dentro desse quadrado sem ficar estranho
+ text-align: right;  --> vai deixar o texto na direita
+ text-align: left; --> vai deixar a escrita na esquerda
+
+ border: 3px solid red;
+
+ há tres tipos de border: solid(uma linha em volta), dotted(pontilhado), dashed(tracejado)
+
+background-size: cover; --> faz a imagem do background cobrir todo o site mesmo se o mesmo tiver o tamanho alterado
+
+--------------------
+display: block;
+margin-left: auto;      #esse código serve paracentralizar uma imagem
+margin-right: auto;  
+----------------------

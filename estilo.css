@@ -1,0 +1,52 @@
+  body {
+
+        background-image: url(imagem/naoironicamente.jpg);
+    }
+
+h1 {
+    color:rgb(10, 6, 107);
+    font-family: Arial;
+    font-size: 50px;
+    margin-left: 25px;
+    
+}
+
+h4{ 
+    color: rgb(76, 20, 243);
+    font-family: Arial;
+    font-size: 20px;
+    background-color: rgb(177, 152, 215);
+    margin-left: 15px;
+    margin-right: 1395px;
+    padding: 8px ;
+    
+    
+}
+
+
+p {
+    color: rgb(223, 8, 8);  
+    font-family: Arial;
+    font-size: 20px;
+    background-color: rgb(235, 141, 141);
+    padding: 8px;
+    margin-left: 16px;
+    margin-right: 1330px;
+    
+}
+
+
+
+a {   
+    color:rgb(32, 143, 22);
+    font-size: 40px;
+    background-color: rgb(185, 222, 181);
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 60px;
+}
+
+
+
+
