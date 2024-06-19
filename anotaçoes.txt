@@ -75,6 +75,57 @@ animation-timing-function: ease; --> função de interpolação
 animation-play-state: running; --> estado da animaçao (running pause)
 
 
+JavaScript
+
+let --> usado para indicar que a variavel tera um valor que sera mudado posteriormente
+let variavel = 'valor original';
+
+const --> usado para indicar que essa variavel nao tera seu valor alterado, ou seja, uma constante
+const variavel = 'valor';
+
+number indica que a variavel é um numero
+
+quando for printar uma variavel na tela e quiser juntar ela com outra em uma frase, envolva todo o conteudo com `` e depois ${variavel}
+
+se quiser printar algo no console do navegador utiliza o codigo console.log()
+
+alert() exibe um alerta
+prompt() uma caixa para vc digitar  
+
+em js utiliza === para se referir a algo que é igual em tipo (string, numero..) e !== diferente em tipo 
+
+condicional é igual a C menos no senão se que utilizamos else if(condicional){instrução}
+
+repetição é igual em C (tanto for quanto while)
+
+para criar uma função utiliza-se function nomedafunçao(parametors){instrução}
+
+o js tem funções pré definidas, dois exemplos:
+
+parseInt(texto) --> transforma string em numero inteiro
+parseFloat(numero/texto ) --> transforma string ou número em número float
+
+document.querySelector()  --> um comando que consegue pegar div, id, e classe que vc criar em html e fazer alterações nele
+
+exemplo:
+
+<div id="meu_id" class= "meu_class" > </div>
+
+<script>
+
+   const div = document.querySelector("div");
+   const div_id = document.querySelector("#meu_id);
+   const div_class = document.querySelector(".meu_class");
+
+  div.style: "color: blue;"
+</script>
+
+
+
+
+
+
+
 
 
 
