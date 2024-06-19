@@ -1,0 +1,65 @@
+propriedades do flex box:
+
+1ª propriedade:
+flex-direction
+
+flex-direction: row;
+[o flexbox por padrao organiza os elementos dessa maneira]
+//ordena de maneira horizontal (esquerda para direita)
+
+
+flex-direction: row-reverse;
+//ordena de maneira horizontal contrária(direita para esquerda)
+
+
+flex-direction: column; 
+//orderna como coluna(de cima para baixo)
+
+
+flex-direction: column-reverse;
+//ordena como coluna ao contrário(de cima para baixo mas ele inverte a ordem dos elementos)
+
+2ª propriedade:
+justify-content
+
+justify-content: flex-start;
+//ordena os elementos no ínicio do eixo principal
+
+justify-content: flex-end;
+//ordena os elementos no final do eixo principal
+
+justify-content: center;
+//ordena os elementos no centro do eixo principal
+
+justify-content: space-between;
+//ordena os elementos com um espaçamento entre eles, o onde o 1 elemento ira ficar no inicio, o ultimo elemento no final, e os demais espalhados no centro
+
+justify-content: space-around;
+//ordena os elementos com um espaçamento entre eles e em torno deles
+
+3ª propriedade:
+align-items
+
+align-items: flex-start;
+//ordena os items no ínicio do eixo secundário
+
+align-items:flex-end:
+//ordena os items no final do eixo secundário
+
+align-items: center;
+//ordena os items no centro do eixo secundário
+
+align-items: stretch;
+//estica os elementos por todo o eixo secundário (se eles já não tiverem uma altura pré definida)
+
+align-items: baseline;
+//alinha os elementos com base no conteúdo deles (ex: dois elementos com fontes escrita dentro deles, as fontes são de tamanhos diferentes, assim, os elementos terão as bases alinhadas)
+
+4ª propriedade:
+flex-wrap
+
+
+
+
+
+

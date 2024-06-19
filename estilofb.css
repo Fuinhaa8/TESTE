@@ -1,0 +1,48 @@
+.container{
+ display: flex;
+  
+}
+
+.filho1 {
+    padding: 16px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(233, 112, 112);
+    border: 1px solid rgb(140, 52, 52);
+
+}
+
+.filho2 {
+    padding: 16px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(149, 149, 227);
+    border: 1px solid rgb(64, 64, 150)
+    
+}
+
+.filho3{
+    padding: 16px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(150, 222, 150);
+    border: 1px solid rgb(49, 134, 49);
+}
+
+/*.filho4{
+    padding: 16px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(249, 196, 122);
+    border: 1px solid rgb(202, 97, 21);
+}
+
+
+.filho5{
+    padding:16px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(172, 236, 244);
+    border: 1px solid rgb(54, 133, 198);
+}
+*/
