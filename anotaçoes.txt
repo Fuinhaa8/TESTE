@@ -66,6 +66,14 @@ imagine o @keyframe como se fosse uma função, onde vc define ela, da um nome a
 inicial e depois como ela ira ser no estado final, utilizando from{oque vc quer que ela seja} to {oque vc quer que ela seja}. Ou entao vc pode utilizar no lugar de from
 e to, numeros em porcentagens como 0%, 50% 100% 75% 30% e etc.), e o animation como uma chamada dessa animação. 
 
+animation-name: none; --> da um nome a animação, no caso o keyframe que ja esta criado, ou seja, funciona como uma chamada desse keyframe
+animation-duration: 0s; --> duração da animação
+animation-delay: 0s; --> delay no inicio da animalçao
+animation-direction: normal; --> indica a direção da animação (normal, reverse, alternate, alternate-reverse)
+animation-iteration-count: 1; --> quantas vezes a animação ira se repeteir (se quiser que seje infinitamente pode colocar infinite)
+animation-timing-function: ease; --> função de interpolação
+animation-play-state: running; --> estado da animaçao (running pause)
+
 
 
 
