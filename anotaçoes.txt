@@ -21,7 +21,7 @@ CSS:
 
  background-size: cover; --> faz a imagem do background cobrir todo o site mesmo se o mesmo tiver o tamanho alterado
 
- --------------------
+ ----------------------
  display: block;
  margin-left: auto;      #esse código serve paracentralizar uma imagem
  margin-right: auto;  
@@ -127,6 +127,49 @@ exemplo:
   div.appendChild(novoConteudo);
 </script>
 
+document.body.insertAdjacentHTML(posiçao, texto);  --> serve para adicionar algum texto no meio da div
+
+'beforebegin' --> antes do elemento
+'afterbegin' --> depois do elemento e antes do seu 1 filho
+'beforeend'  --> dentro do elemento e após seu primeiro filho
+'afterend' --> após o elemento 
+
+tipos de <input>
+
+type= "text" [padrao], 'number', 'password', 'checkbox', etc  --> determina o tipo de input que sera utilizado
+sixe= numero  --> estabelece o tamanho inicial do input, sendo o valor em caracteres
+maxlenght= numero  --> atribui o numero maximo de caracteres que o usuário pode inserir, se nao for definido, a inserção é infinita
+placeholder= texto  --> usado para indicar o valor esperado do elemento 
+value=texto --> define o valor inicial do elemento 
+type="file"  --> pode inserir arquivos 
+
+exemplo: 
+<input type="text placeholder="digite aqui o seu email"> 
+
+<button> botao
+
+<button type="button"> ok </button>  --> vai criar um botao escrito ok
+é possivel criar um botao dessa forma tambem: <input type="button">
+
+Eventos
+
+eventos mais utilizados:
+
+onClick --> o elemento é clicado pelo usuário
+onKeyPress  --> o usuário pressiona uma tecla sobre o elemento
+onMouseOver --> define uma ação quando o usuário passa o mouse sobre o elemento
+onMouseOut --> define uma ação quando o usuário retira o mouse sobre o elemento
+onChance  --> muda o valor do elemento
+
+da para colocar eventos em funçoes, assim o vc pode executar algum código quando algum evento é acionado
+
+HTML:
+<elemento evento = "funcaoJavaScript()">
+
+JavaScript:
+
+elemento.addEventListener("evento", funcaoJavaScript);
+elemento.evento = funcaoJavaScript;
 
 
 
