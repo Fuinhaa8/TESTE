@@ -19,60 +19,60 @@ CSS:
 
  há tres tipos de border: solid(uma linha em volta), dotted(pontilhado), dashed(tracejado)
 
-background-size: cover; --> faz a imagem do background cobrir todo o site mesmo se o mesmo tiver o tamanho alterado
+ background-size: cover; --> faz a imagem do background cobrir todo o site mesmo se o mesmo tiver o tamanho alterado
 
---------------------
-display: block;
-margin-left: auto;      #esse código serve paracentralizar uma imagem
-margin-right: auto;  
-----------------------
+ --------------------
+ display: block;
+ margin-left: auto;      #esse código serve paracentralizar uma imagem
+ margin-right: auto;  
+ ----------------------
 
-Estados e Animações
+ Estados e Animações
 
-:hover  --> as propriedade são aplicadas quando o ponteiro do mouse é passado por cima do elemento
-:focus  --> as propriedades são aplicadas quando um elemento recebe o foco, geralmente sendo clicado
-:active  --> as propriedades são aplicadas quando o mouse estiver clicando no elemento 
-:link --> as propriedades são aplicadas no estado inicial do link, quando ele ainda não foi visitado
-:visited --> as propriedades são aplicadas quando o link ja foi visitado anteriormente
+ :hover  --> as propriedade são aplicadas quando o ponteiro do mouse é passado por cima do elemento
+ :focus  --> as propriedades são aplicadas quando um elemento recebe o foco, geralmente sendo clicado
+ :active  --> as propriedades são aplicadas quando o mouse estiver clicando no elemento 
+ :link --> as propriedades são aplicadas no estado inicial do link, quando ele ainda não foi visitado
+ :visited --> as propriedades são aplicadas quando o link ja foi visitado anteriormente
 
-::before --> Adiciona um conteudo antes do elemento (com sua propria estilização)
-::after --> mesma coisa do before, mas ao contrario
-::placeholder --> utilizado com a tag <input> , estiliza um espaço reservado (uma caixa para inserir dados com a escrita dentro dela "Digite aqui)
-::selection --> estiliza uma parte que o usuário clicar e arrastar com o mouse pelo texto
+ ::before --> Adiciona um conteudo antes do elemento (com sua propria estilização)
+ ::after --> mesma coisa do before, mas ao contrario
+ ::placeholder --> utilizado com a tag <input> , estiliza um espaço reservado (uma caixa para inserir dados com a escrita dentro dela "Digite aqui)
+ ::selection --> estiliza uma parte que o usuário clicar e arrastar com o mouse pelo texto
 
 
-Animações
+ Animações
 
-transition-property: all; --> quais propriedades CSS devem ter a transição
-transition-duration: 0s; --> duração da transição
-transition-timing-function: ease; --> função de interpolação 
-transition-delay: 0s; --> delay para começar a transição
+ transition-property: all; --> quais propriedades CSS devem ter a transição
+ transition-duration: 0s; --> duração da transição
+ transition-timing-function: ease; --> função de interpolação 
+ transition-delay: 0s; --> delay para começar a transição
 
-ir no w3schol na parte de CSS animaçoes para ver mais as timing function na prática
+ ir no w3schol na parte de CSS animaçoes para ver mais as timing function na prática
 
-transition --> geralmente é associado com os seletores de estado, como o hover por Exemplo
+ transition --> geralmente é associado com os seletores de estado, como o hover por Exemplo
 
-transform --> transforma um elemento na tela, mudanso seu eixo x, y, aumenta-lo, diminui-lo, e etc
-Cada atributo também possui suas respectivas medidas
+ transform --> transforma um elemento na tela, mudanso seu eixo x, y, aumenta-lo, diminui-lo, e etc
+ Cada atributo também possui suas respectivas medidas
 
-translateY , translateX --> valores em px, em, pt, cm, mm
-scaleY, scaleX --> valores em float
-rotateY, rotateX, rotateZ --> valores em deg, grad, rad, turn
+ translateY , translateX --> valores em px, em, pt, cm, mm
+ scaleY, scaleX --> valores em float
+ rotateY, rotateX, rotateZ --> valores em deg, grad, rad, turn
 
-as animações em CSS são compostas por @keyframes e animation, onde os @keyframes é uma definição de quadros de animação e o animation uma
-configuração de parametros da animação
+ as animações em CSS são compostas por @keyframes e animation, onde os @keyframes é uma definição de quadros de animação e o animation uma
+ configuração de parametros da animação
 
-imagine o @keyframe como se fosse uma função, onde vc define ela, da um nome a ela e depois insere oque ela ira fazer (no caso vc define como ela vai ser no estado
-inicial e depois como ela ira ser no estado final, utilizando from{oque vc quer que ela seja} to {oque vc quer que ela seja}. Ou entao vc pode utilizar no lugar de from
-e to, numeros em porcentagens como 0%, 50% 100% 75% 30% e etc.), e o animation como uma chamada dessa animação. 
+ imagine o @keyframe como se fosse uma função, onde vc define ela, da um nome a ela e depois insere oque ela ira fazer (no caso vc define como ela vai ser no estado
+ inicial e depois como ela ira ser no estado final, utilizando from{oque vc quer que ela seja} to {oque vc quer que ela seja}. Ou entao vc pode utilizar no lugar de from
+ e to, numeros em porcentagens como 0%, 50% 100% 75% 30% e etc.), e o animation como uma chamada dessa animação. 
 
-animation-name: none; --> da um nome a animação, no caso o keyframe que ja esta criado, ou seja, funciona como uma chamada desse keyframe
-animation-duration: 0s; --> duração da animação
-animation-delay: 0s; --> delay no inicio da animalçao
-animation-direction: normal; --> indica a direção da animação (normal, reverse, alternate, alternate-reverse)
-animation-iteration-count: 1; --> quantas vezes a animação ira se repeteir (se quiser que seje infinitamente pode colocar infinite)
-animation-timing-function: ease; --> função de interpolação
-animation-play-state: running; --> estado da animaçao (running pause)
+ animation-name: none; --> da um nome a animação, no caso o keyframe que ja esta criado, ou seja, funciona como uma chamada desse keyframe
+ animation-duration: 0s; --> duração da animação
+ animation-delay: 0s; --> delay no inicio da animalçao
+ animation-direction: normal; --> indica a direção da animação (normal, reverse, alternate, alternate-reverse)
+ animation-iteration-count: 1; --> quantas vezes a animação ira se repeteir (se quiser que seje infinitamente pode colocar infinite)
+ animation-timing-function: ease; --> função de interpolação
+ animation-play-state: running; --> estado da animaçao (running pause)
 
 
 JavaScript
@@ -118,6 +118,13 @@ exemplo:
    const div_class = document.querySelector(".meu_class");
 
   div.style: "color: blue;"
+
+  const p = document.createElement("p"); --> criei um paragrafo
+  const novoConteudo = document.createTextNode("ola);
+
+  p.innerHTML = "paragrafo novo";  --> adicionei um texto a esse paragrafo (innerHTML serve para colocar um valor dentro de um elemento, lembrando que ele substituirá qualquer valor prévio)
+  div.appendChild(p);  --> ele vai entrar na div e adicionar um filho a ela, no caso o paragrafo
+  div.appendChild(novoConteudo);
 </script>
 
 
