@@ -29,7 +29,8 @@ margin-right: auto;
 
 Animações e Estados
 
-hover  --> as propriedade são aplicadas quando o ponteiro do mouse é passado por cima do elemento
-focus  --> as propriedades são aplicadas quando um elemento recebe o foco, geralmente sendo clicado
-active  --> as propriedades são aplicadas quando o mouse estiver clicando no elemento 
+:hover  --> as propriedade são aplicadas quando o ponteiro do mouse é passado por cima do elemento
+:focus  --> as propriedades são aplicadas quando um elemento recebe o foco, geralmente sendo clicado
+:active  --> as propriedades são aplicadas quando o mouse estiver clicando no elemento 
+:link -->
 
